@@ -1,0 +1,126 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4274190952061798611
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4274190952061798613}
+  - component: {fileID: 4274190952061798612}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4274190952061798613
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4274190952061798611}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.6304018, y: 1.4311401, z: -0.014569435}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4274190952061798612
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4274190952061798611}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e768026840b8934ca229f0af22b4e24, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  musicMixerGroup: {fileID: -6249507150635963010, guid: 3cf4d526154e50d4891050608db54eae, type: 2}
+  soundEffectsMixerGroup: {fileID: -4722513742612434193, guid: 3cf4d526154e50d4891050608db54eae, type: 2}
+  sounds:
+  - audioType: 0
+    source: {fileID: 0}
+    clipName: song1
+    audioClip: {fileID: 8300000, guid: 6b8c9bcc6b5063847baa6a8da8d50479, type: 3}
+    isLoop: 0
+    playOnAwake: 0
+    volume: 0.09
+  - audioType: 0
+    source: {fileID: 0}
+    clipName: shot
+    audioClip: {fileID: 8300000, guid: 43139e0b443417746935594bc93a1398, type: 3}
+    isLoop: 0
+    playOnAwake: 0
+    volume: 0.082
+  - audioType: 0
+    source: {fileID: 0}
+    clipName: aim
+    audioClip: {fileID: 8300000, guid: 172d4dbb40c52e34794138be32b1d240, type: 3}
+    isLoop: 0
+    playOnAwake: 0
+    volume: 0.085
+  - audioType: 0
+    source: {fileID: 0}
+    clipName: bulletdrop
+    audioClip: {fileID: 8300000, guid: 3adb06bc95d17ed44a47c566206e44c8, type: 3}
+    isLoop: 0
+    playOnAwake: 0
+    volume: 0.085
+  - audioType: 0
+    source: {fileID: 0}
+    clipName: bomb
+    audioClip: {fileID: 8300000, guid: cf914cc832d32e44395ef66a094487fb, type: 3}
+    isLoop: 0
+    playOnAwake: 0
+    volume: 0.085
+  - audioType: 0
+    source: {fileID: 0}
+    clipName: damage
+    audioClip: {fileID: 8300000, guid: 6ebcdf6619cb864409f535e734bc614b, type: 3}
+    isLoop: 0
+    playOnAwake: 0
+    volume: 0.085
+  - audioType: 0
+    source: {fileID: 0}
+    clipName: katana
+    audioClip: {fileID: 8300000, guid: 7b3c761cd1585934bb3f23d74027e142, type: 3}
+    isLoop: 0
+    playOnAwake: 0
+    volume: 0.085
+  - audioType: 0
+    source: {fileID: 0}
+    clipName: beat
+    audioClip: {fileID: 8300000, guid: be115a17c4536094ab38789e8ed2d4ed, type: 3}
+    isLoop: 0
+    playOnAwake: 0
+    volume: 0.085
+  - audioType: 0
+    source: {fileID: 0}
+    clipName: sword
+    audioClip: {fileID: 8300000, guid: 931300428ccedfb4b816fd8e03afb04e, type: 3}
+    isLoop: 0
+    playOnAwake: 0
+    volume: 0.085
+  - audioType: 0
+    source: {fileID: 0}
+    clipName: slash
+    audioClip: {fileID: 8300000, guid: 6555e6af64363394383da1d4fb4f1e79, type: 3}
+    isLoop: 0
+    playOnAwake: 0
+    volume: 0.157
+  - audioType: 0
+    source: {fileID: 0}
+    clipName: time
+    audioClip: {fileID: 8300000, guid: fde162439ba644740af57f49e1c01de1, type: 3}
+    isLoop: 0
+    playOnAwake: 0
+    volume: 0.134
