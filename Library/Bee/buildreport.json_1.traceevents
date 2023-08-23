@@ -1,0 +1,435 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1683128221602224, "dur": 3600744, "ph": "X", "name": "Build ScriptAssemblies", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1683128221603823, "dur": 56082, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1683128221660052, "dur": 3532962, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1683128225193052, "dur": 9915, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1683128245950692, "dur": 522327, "ph": "X", "name": "Build ScriptAssemblies", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1683128245950713, "dur": 55031, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1683128246005747, "dur": 455191, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1683128246460939, "dur": 12079, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1683128267320736, "dur": 420919, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1683128267321033, "dur": 39059, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1683128267360095, "dur": 377588, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1683128267737686, "dur": 3967, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1683128267742058, "dur": 23, "ph": "X", "name": "", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1683128267637591, "dur":21433, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683128267659035, "dur":324, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1683128267659412, "dur":67, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1683128267659481, "dur":313, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1683128267659814, "dur":603, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683128267660417, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683128267693070, "dur":407, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683128267693477, "dur":13, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683128267693490, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683128267693493, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683128267693501, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683128267693503, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683128267693511, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683128267693513, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683128267693521, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683128267693523, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683128267693530, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683128267693532, "dur":11, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683128267693543, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683128267693775, "dur":3, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683128267693804, "dur":2065, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1683128267660233, "dur":207, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683128267660440, "dur":3309, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683128267663749, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1683128267663784, "dur":116, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683128267663901, "dur":179, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1683128267664080, "dur":889, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683128267664969, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/SpiderTale_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683128267664980, "dur":21, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683128267665001, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/SpiderTale_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683128267665011, "dur":20, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683128267665031, "dur":335, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/SpiderTale_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683128267665366, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683128267665390, "dur":383, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/SpiderTale_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683128267665773, "dur":23, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683128267665797, "dur":216, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/SpiderTale_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683128267666013, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683128267666039, "dur":137, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/SpiderTale_Data/Managed/Unity.RenderPipelines.Universal.Shaders.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683128267666176, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683128267666201, "dur":595, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/SpiderTale_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683128267666797, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683128267666823, "dur":395, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/SpiderTale_Data/Managed/Unity.2D.Animation.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683128267667218, "dur":22, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683128267667241, "dur":136, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/SpiderTale_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":1, "ts":1683128267667377, "dur":38, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683128267667416, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/SpiderTale_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1683128267667448, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683128267669010, "dur":3094, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/SpiderTale_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1683128267672120, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/SpiderTale_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1683128267672133, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683128267672136, "dur":7154, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/SpiderTale_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1683128267679303, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/SpiderTale_Data/resources.assets" }}
+,{ "pid":12345, "tid":1, "ts":1683128267679318, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683128267679321, "dur":2058, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/SpiderTale_Data/resources.assets" }}
+,{ "pid":12345, "tid":1, "ts":1683128267681396, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/SpiderTale_Data/level1" }}
+,{ "pid":12345, "tid":1, "ts":1683128267681413, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683128267681417, "dur":967, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/SpiderTale_Data/level1" }}
+,{ "pid":12345, "tid":1, "ts":1683128267682398, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/SpiderTale_Data/level0" }}
+,{ "pid":12345, "tid":1, "ts":1683128267682413, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683128267682418, "dur":680, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/SpiderTale_Data/level0" }}
+,{ "pid":12345, "tid":1, "ts":1683128267683108, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/SpiderTale_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":1, "ts":1683128267683121, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683128267683123, "dur":1975, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/SpiderTale_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":1, "ts":1683128267685109, "dur":7868, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683128267660274, "dur":173, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683128267660448, "dur":3251, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683128267663699, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1683128267663752, "dur":184, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683128267663936, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1683128267663962, "dur":43, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683128267664005, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":2, "ts":1683128267664025, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683128267664051, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":2, "ts":1683128267664077, "dur":38, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683128267664116, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/SpiderTale_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683128267664130, "dur":36, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683128267664166, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/SpiderTale_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683128267664182, "dur":20, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683128267664202, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/SpiderTale_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683128267664223, "dur":20, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683128267664244, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/SpiderTale_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683128267664255, "dur":20, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683128267664275, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/SpiderTale_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683128267664287, "dur":30, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683128267664317, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/SpiderTale_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683128267664330, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683128267664347, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/SpiderTale_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683128267664361, "dur":19, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683128267664380, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/SpiderTale_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683128267664396, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683128267664414, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/SpiderTale_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683128267664427, "dur":31, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683128267664458, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/SpiderTale_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683128267664469, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683128267664486, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/SpiderTale_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683128267664497, "dur":16, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683128267664514, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/SpiderTale_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683128267664525, "dur":16, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683128267664541, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/SpiderTale_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683128267664552, "dur":16, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683128267664568, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/SpiderTale_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683128267664579, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683128267664596, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/SpiderTale_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683128267664609, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683128267664626, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/SpiderTale_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683128267664636, "dur":19, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683128267664656, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/SpiderTale_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683128267664666, "dur":30, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683128267664696, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/SpiderTale_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683128267664706, "dur":19, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683128267664725, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/SpiderTale_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683128267664736, "dur":16, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683128267664753, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/SpiderTale_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683128267664763, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683128267664780, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/SpiderTale_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683128267664789, "dur":18, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683128267664808, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/SpiderTale_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683128267664819, "dur":20, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683128267664839, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/SpiderTale_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683128267664850, "dur":101, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683128267664952, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/SpiderTale_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683128267664977, "dur":23, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683128267665000, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/SpiderTale_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683128267665010, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683128267665027, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/SpiderTale_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683128267665037, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683128267665054, "dur":738, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/SpiderTale_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683128267665792, "dur":25, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683128267665818, "dur":308, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/SpiderTale_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683128267666126, "dur":21, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683128267666148, "dur":127, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/SpiderTale_Data/Managed/Unity.RenderPipeline.Universal.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683128267666275, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683128267666300, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/SpiderTale_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683128267666310, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683128267666328, "dur":315, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/SpiderTale_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683128267666643, "dur":23, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683128267666666, "dur":322, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/SpiderTale_Data/Managed/Unity.2D.IK.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683128267666989, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683128267667015, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/SpiderTale_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683128267667027, "dur":23, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683128267667050, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/SpiderTale_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683128267667062, "dur":20, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683128267667082, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/SpiderTale_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683128267667092, "dur":530, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683128267667623, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/SpiderTale_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":2, "ts":1683128267667708, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683128267667711, "dur":2896, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/SpiderTale_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":2, "ts":1683128267670623, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/SpiderTale_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1683128267670640, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683128267670646, "dur":7535, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/SpiderTale_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1683128267678195, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/SpiderTale_Data/resources.resource" }}
+,{ "pid":12345, "tid":2, "ts":1683128267678208, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683128267678231, "dur":5637, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/SpiderTale_Data/resources.resource" }}
+,{ "pid":12345, "tid":2, "ts":1683128267683879, "dur":9174, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683128267660324, "dur":127, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683128267660451, "dur":3229, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683128267663684, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1683128267663737, "dur":93, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683128267663831, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1683128267663850, "dur":28, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683128267663878, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1683128267663915, "dur":20, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683128267663935, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1683128267663957, "dur":27, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683128267663984, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1683128267664003, "dur":16, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683128267664020, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683128267664041, "dur":27, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683128267664068, "dur":883, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/SpiderTale.exe" }}
+,{ "pid":12345, "tid":3, "ts":1683128267664951, "dur":20, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683128267664972, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/SpiderTale_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683128267664982, "dur":22, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683128267665004, "dur":257, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/SpiderTale_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683128267665261, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683128267665286, "dur":466, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/SpiderTale_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683128267665752, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683128267665777, "dur":269, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/SpiderTale_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683128267666047, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683128267666073, "dur":136, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/SpiderTale_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683128267666209, "dur":35, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683128267666245, "dur":129, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/SpiderTale_Data/Managed/Unity.InternalAPIEngineBridge.001.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683128267666374, "dur":23, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683128267666397, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/SpiderTale_Data/Managed/Unity.Burst.Cecil.Rocks.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683128267666408, "dur":15, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683128267666423, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/SpiderTale_Data/Managed/Unity.Burst.Cecil.Pdb.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683128267666432, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683128267666446, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/SpiderTale_Data/Managed/Unity.Burst.Cecil.Mdb.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683128267666454, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683128267666468, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/SpiderTale_Data/Managed/Unity.Burst.Cecil.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683128267666477, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683128267666491, "dur":139, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/SpiderTale_Data/Managed/Unity.2D.Tilemap.Extras.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683128267666630, "dur":21, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683128267666652, "dur":145, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/SpiderTale_Data/Managed/Unity.2D.PixelPerfect.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683128267666797, "dur":27, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683128267666824, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/SpiderTale_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683128267666835, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683128267666852, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/SpiderTale_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683128267666862, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683128267666877, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/SpiderTale_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683128267666886, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683128267666912, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/SpiderTale_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683128267666922, "dur":16, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683128267666938, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/SpiderTale_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683128267666947, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683128267666965, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/SpiderTale_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683128267666974, "dur":16, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683128267666990, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/SpiderTale_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683128267666999, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683128267667016, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/SpiderTale_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683128267667027, "dur":18, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683128267667045, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/SpiderTale_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683128267667055, "dur":16, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683128267667071, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/SpiderTale_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683128267667084, "dur":31, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683128267667115, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/SpiderTale_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683128267667128, "dur":16, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683128267667144, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/SpiderTale_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683128267667153, "dur":15, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683128267667168, "dur":189, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/SpiderTale_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683128267667361, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683128267668042, "dur":2577, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/SpiderTale_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683128267670633, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/SpiderTale_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":3, "ts":1683128267670648, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683128267670651, "dur":1523, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/SpiderTale_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":3, "ts":1683128267672186, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/SpiderTale_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":3, "ts":1683128267672199, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683128267672201, "dur":7144, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/SpiderTale_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":3, "ts":1683128267679357, "dur":622, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/SpiderTale_Data/level2" }}
+,{ "pid":12345, "tid":3, "ts":1683128267679984, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683128267679988, "dur":3809, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/SpiderTale_Data/level2" }}
+,{ "pid":12345, "tid":3, "ts":1683128267683814, "dur":160, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/SpiderTale_Data/boot.config" }}
+,{ "pid":12345, "tid":3, "ts":1683128267683975, "dur":30, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683128267684006, "dur":9043, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683128267660361, "dur":94, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683128267660455, "dur":3312, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683128267663768, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1683128267663861, "dur":48, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683128267663910, "dur":127, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1683128267664037, "dur":870, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683128267664908, "dur":153, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/SpiderTale_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683128267665061, "dur":18, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683128267665079, "dur":225, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/SpiderTale_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683128267665304, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683128267665329, "dur":458, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/SpiderTale_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683128267665787, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683128267665813, "dur":224, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/SpiderTale_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683128267666038, "dur":25, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683128267666064, "dur":895, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/SpiderTale_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683128267666960, "dur":25, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683128267666986, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/SpiderTale_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683128267666997, "dur":20, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683128267667017, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/SpiderTale_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683128267667028, "dur":19, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683128267667047, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/SpiderTale_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683128267667056, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683128267667074, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/SpiderTale_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683128267667084, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683128267667102, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/SpiderTale_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683128267667114, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683128267667131, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/SpiderTale_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683128267667141, "dur":15, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683128267667156, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/SpiderTale_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683128267667166, "dur":15, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683128267667181, "dur":24846, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/SpiderTale_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683128267692033, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683128267692095, "dur":857, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/SpiderTale_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683128267692964, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":4, "ts":1683128267692965, "dur":1, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683128267660388, "dur":74, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683128267660462, "dur":3214, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683128267663682, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":5, "ts":1683128267663739, "dur":141, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683128267663881, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1683128267663905, "dur":31, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683128267663936, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1683128267663959, "dur":39, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683128267663999, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":5, "ts":1683128267664022, "dur":22, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683128267664045, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683128267664104, "dur":27, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683128267664132, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/SpiderTale_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683128267664145, "dur":21, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683128267664167, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/SpiderTale_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683128267664182, "dur":19, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683128267664202, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/SpiderTale_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683128267664224, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683128267664250, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/SpiderTale_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683128267664264, "dur":19, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683128267664283, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/SpiderTale_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683128267664298, "dur":19, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683128267664318, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/SpiderTale_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683128267664330, "dur":19, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683128267664349, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/SpiderTale_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683128267664361, "dur":16, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683128267664377, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/SpiderTale_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683128267664388, "dur":18, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683128267664406, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/SpiderTale_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683128267664417, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683128267664434, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/SpiderTale_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683128267664447, "dur":20, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683128267664468, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/SpiderTale_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683128267664485, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683128267664503, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/SpiderTale_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683128267664514, "dur":18, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683128267664532, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/SpiderTale_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683128267664543, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683128267664560, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/SpiderTale_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683128267664571, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683128267664588, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/SpiderTale_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683128267664604, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683128267664622, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/SpiderTale_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683128267664633, "dur":16, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683128267664649, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/SpiderTale_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683128267664661, "dur":18, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683128267664679, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/SpiderTale_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683128267664689, "dur":16, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683128267664705, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/SpiderTale_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683128267664719, "dur":18, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683128267664737, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/SpiderTale_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683128267664747, "dur":16, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683128267664764, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/SpiderTale_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683128267664775, "dur":16, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683128267664791, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/SpiderTale_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683128267664802, "dur":16, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683128267664818, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/SpiderTale_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683128267664829, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683128267664846, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/SpiderTale_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683128267664857, "dur":95, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683128267664953, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/SpiderTale_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683128267664980, "dur":25, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683128267665006, "dur":599, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/SpiderTale_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683128267665606, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683128267665632, "dur":186, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/SpiderTale_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683128267665819, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683128267665844, "dur":184, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/SpiderTale_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683128267666029, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683128267666054, "dur":515, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/SpiderTale_Data/Managed/Unity.RenderPipelines.Universal.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683128267666569, "dur":25, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683128267666595, "dur":191, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/SpiderTale_Data/Managed/Unity.2D.SpriteShape.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683128267666786, "dur":23, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683128267666810, "dur":265, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/SpiderTale_Data/Managed/Unity.2D.Common.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683128267667075, "dur":25, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683128267667101, "dur":226, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/SpiderTale_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683128267667327, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683128267667352, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/SpiderTale_Data/sharedassets2.resource" }}
+,{ "pid":12345, "tid":5, "ts":1683128267667366, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683128267668245, "dur":9125, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/SpiderTale_Data/sharedassets2.resource" }}
+,{ "pid":12345, "tid":5, "ts":1683128267677387, "dur":433, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/SpiderTale_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":5, "ts":1683128267677821, "dur":96, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683128267677918, "dur":916, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/SpiderTale_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":5, "ts":1683128267678835, "dur":37, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683128267678874, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/SpiderTale_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1683128267678891, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683128267678894, "dur":4244, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/SpiderTale_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1683128267683148, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/SpiderTale_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":5, "ts":1683128267683176, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683128267683178, "dur":1391, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/SpiderTale_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":5, "ts":1683128267684580, "dur":8408, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683128267660421, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683128267660421, "dur":3248, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683128267663682, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":6, "ts":1683128267663683, "dur":38, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683128267663727, "dur":5, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/SpiderTale_Data/app.info" }}
+,{ "pid":12345, "tid":6, "ts":1683128267663732, "dur":25, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683128267663758, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1683128267663786, "dur":147, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683128267663933, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1683128267663966, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683128267664019, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683128267664045, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683128267664101, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/SpiderTale_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":6, "ts":1683128267664124, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683128267664151, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/SpiderTale_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683128267664162, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683128267664179, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/SpiderTale_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683128267664192, "dur":18, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683128267664210, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/SpiderTale_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683128267664223, "dur":21, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683128267664245, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/SpiderTale_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683128267664259, "dur":19, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683128267664279, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/SpiderTale_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683128267664290, "dur":19, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683128267664309, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/SpiderTale_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683128267664322, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683128267664339, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/SpiderTale_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683128267664349, "dur":16, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683128267664366, "dur":368, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/SpiderTale_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683128267664734, "dur":25, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683128267664760, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/SpiderTale_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683128267664775, "dur":21, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683128267664796, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/SpiderTale_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683128267664807, "dur":20, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683128267664828, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/SpiderTale_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683128267664841, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683128267664858, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/SpiderTale_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683128267664945, "dur":20, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683128267664965, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/SpiderTale_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683128267664976, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683128267664993, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/SpiderTale_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683128267665003, "dur":16, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683128267665019, "dur":600, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/SpiderTale_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683128267665619, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683128267665645, "dur":288, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/SpiderTale_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683128267665933, "dur":22, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683128267665955, "dur":127, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/SpiderTale_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683128267666083, "dur":23, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683128267666106, "dur":1201, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/SpiderTale_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683128267667308, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683128267667335, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/SpiderTale_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":6, "ts":1683128267667357, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683128267667667, "dur":15324, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/SpiderTale_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":6, "ts":1683128267683004, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Game/SpiderTale_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1683128267683018, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683128267683021, "dur":2875, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Game/SpiderTale_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1683128267685907, "dur":7069, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683128267697875, "dur":1307, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1683128267742116, "dur": 570, "ph": "X", "name": "backend_profiler0.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1683128267742047, "dur": 665, "ph": "X", "name": "Write chrome-trace events", "args": {} },
